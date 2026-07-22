@@ -1,0 +1,55 @@
+.stButton > button{
+    background-color: green;
+    color: white;
+}
+
+.stButton > button:hover{
+    background-color: rgb(113, 221, 113);
+    color: rgb(0, 71, 6);
+    border-color: rgb(1, 66, 1);
+}
+.stApp {
+    background-color: #E6DBDA;
+}
+#ecocoleta{
+    color: green;
+    font-size: 80px;
+    text-align: center;
+}
+
+#MainMenu{
+    visibility: hidden;
+}
+
+.stAppDeployButton > button{
+    visibility: hidden;
+}
+
+.stTabs [aria-selected="true"] {
+    color: green;
+}
+.stTabs [aria-selected="false"] {
+    color: #22ff1a;
+}
+
+.stTabs [data-baseweb="tab-highlight"] {
+    color: green;
+}
+
+.react-aria-SelectionIndicator {
+    background-color: green !important;
+}
+
+[data-testid="stToolbar"]{
+    background-color: green !important;
+}
+[data-testid="stMarkdown"] {
+    color: black !important;
+}
+
+#pontos-de-coleta {
+    color: black;
+}
+#pontos-de-eletronicos{
+    color: black;
+}
